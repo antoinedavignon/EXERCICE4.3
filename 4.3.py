@@ -26,5 +26,4 @@ elif 200 > facture_sans_pourboire >= 100:
 
 else:
     pourboire = 0
-
-print(f"La facture totale avec pourboire est de {facture_sans_pourboire + pourboire:.2f}$ avec un pourboire de {pourboire:.2f}$.")
+    print(f"La facture totale avec pourboire est de {facture_sans_pourboire + pourboire:.2f}$ avec un pourboire de {pourboire:.2f}$.")
