@@ -20,4 +20,6 @@ elif facture_sans_pourboire < 100:
 elif 200 > facture_sans_pourboire >= 100:
     pourboire = 15 + (0.05 * facture_sans_pourboire)
 
+# PMC j'ajouterais un else avec pourboire = 0, ca va régler l'avertissement (voir onglet Problems)
+# PMC de plus, il y a 3 avertissements PEP8, il faut reformater le fichier
 print(f"La facture totale avec pourboire est de {facture_sans_pourboire + pourboire:.2f}$ avec un pourboire de {pourboire:.2f}$.")
